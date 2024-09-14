@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap/index';
-import { useGSAP } from '@gsap/index';
+import { useGSAP } from '@gsap/react';
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

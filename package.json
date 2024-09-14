@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
+    "dev": "next dev",
     "deploy": "npm run build && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.30",
     "gsap": "^3.12.5",
