@@ -2,14 +2,14 @@
   "name": "menu",
   "homepage": "https://gingerwiththreer.github.io/techno24v3/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist",
+    "build": "next build",
+    "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^2.1.1",
