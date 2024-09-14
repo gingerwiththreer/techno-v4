@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    margin: 0px;
+    ::selection{
+        color: rgb(233, 219, 219);
+        background-color: rgb(245, 14, 14);
+    }
+    height: 8000px;
+
+    
+}

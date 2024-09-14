@@ -1,0 +1,35 @@
+{
+  "name": "menu",
+  "homepage": "https://gingerwiththreer.github.io/techno24v3/",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.30",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.13",
+    "nex": "^2.0.22",
+    "next": "^14.2.6",
+    "react": "^18.3.1",
+    "react-countdown": "^2.3.6",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.8",
+    "tailwind-merge": "^2.5.2",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.4"
+  }
+}
