@@ -12,7 +12,7 @@
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.30",
+    "framer-motion": "^11.5.4",
     "gsap": "^3.12.5",
     "lenis": "^1.1.13",
     "nex": "^2.0.22",
@@ -20,15 +20,23 @@
     "react": "^18.3.1",
     "react-countdown": "^2.3.6",
     "react-dom": "^18.3.1",
-    "react-scripts": "^3.4.4",
     "sass": "^1.77.8",
     "tailwind-merge": "^2.5.2",
+    "typescript": "^5.6.2",
     "video-react": "^0.16.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
     "@types/node": "22.5.4",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.6",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.11",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-react": "^7.36.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
     "gh-pages": "^6.1.1"
   }
 }
